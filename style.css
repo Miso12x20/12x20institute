@@ -1,0 +1,75 @@
+/* ── Reset & Base ── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f5f4f0;
+    color: #111;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ── Nav ── */
+header {
+    padding: 2rem;
+    border-bottom: 1px solid #111;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul a {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+/* ── Hero ── */
+.hero {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: none;
+    color: #555;
+}
+
+/* ── Footer ── */
+footer {
+    padding: 2rem;
+    border-top: 1px solid #111;
+    font-size: 0.8rem;
+    color: #555;
+}
